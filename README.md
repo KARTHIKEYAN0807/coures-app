@@ -2,7 +2,8 @@ React Courses Web App
 
 Overview
 
-![Screenshot 2024-08-06 125011](https://github.com/user-attachments/assets/d3bfec99-0827-44f3-839b-ff69d4244fdb)
+![Screenshot 2024-08-06 132331](https://github.com/user-attachments/assets/ac4a785d-6609-4915-ac12-c930a96335c8)
+
 
 This project is a React web application that uses react-router-dom for routing. The app showcases various courses with a responsive design and visually appealing elements, including background images, animations, and customized scrollbars.
 
