@@ -1,0 +1,95 @@
+/* General styles for the whole application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('https://img.freepik.com/free-vector/copy-space-blue-circuits-digital-background_23-2148821699.jpg?w=996&t=st=1722925195~exp=1722925795~hmac=eb2a558107d8e8572f5dd034c62ee9d1a7071095ac6d1db5abf8061f76b1e277') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Styles for the navbar */
+.navbar {
+  background-color: rgba(52, 58, 64, 0.8) !important; /* Semi-transparent background */
+  width: 100%;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #007BFF !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Styles for the course content */
+.course-content {
+  background: rgba(31, 155, 244, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+  width: 100%;
+  height: calc(100vh - 56px); /* Adjust based on navbar height */
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.course-content img {
+  max-width: 100%;
+  height: auto;
+  width: 80%; /* Adjust as needed */
+  margin-top: 20px;
+}
+
+/* Styles for images */
+.large-image {
+  width: 100vw; /* Full-width image */
+  height: 100vh;
+  max-height: 500px; /* Adjust max-height as needed */
+  object-fit: cover;
+}
+
+h1 {
+  color: #007BFF;
+  animation: slideIn 1s ease-in-out;
+}
+
+p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
