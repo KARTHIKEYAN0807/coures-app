@@ -6,7 +6,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url('https://img.freepik.com/free-vector/copy-space-blue-circuits-digital-background_23-2148821699.jpg?w=996&t=st=1722925195~exp=1722925795~hmac=eb2a558107d8e8572f5dd034c62ee9d1a7071095ac6d1db5abf8061f76b1e277') no-repeat center center fixed;
+  background: url('https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
