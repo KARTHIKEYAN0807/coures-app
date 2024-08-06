@@ -1,21 +1,28 @@
 React Courses Web App
+
 Overview
+
 ![Screenshot 2024-08-06 125011](https://github.com/user-attachments/assets/d3bfec99-0827-44f3-839b-ff69d4244fdb)
 
 This project is a React web application that uses react-router-dom for routing. The app showcases various courses with a responsive design and visually appealing elements, including background images, animations, and customized scrollbars.
 
 Features
+
 Full-Screen Background Image: A background image that covers the entire viewport.
 Responsive Design: The application is fully responsive and adjusts to different screen sizes.
 Navigation Menu: A navigation bar with links to various course pages.
 Content Sections: Pages for different courses with images and text.
 Scrollbars: Custom scrollbars styled to be less intrusive.
+
 Technologies Used
+
 React: JavaScript library for building user interfaces.
 react-router-dom: For handling routing within the application.
 Bootstrap: For responsive design and styling.
 CSS: For custom styles, animations, and background images.
+
 Installation
+
 Clone the Repository:
 
 bash
@@ -53,7 +60,9 @@ Course Images: Adjust the width and max-height properties in src/App.css to modi
 Customizing Styles
 CSS Animations: Modify or add new animations in src/App.css.
 Scrollbar Styles: Customize the scrollbar appearance in src/App.css using ::-webkit-scrollbar properties.
+
 Folder Structure
+
 bash
 
 /src
@@ -69,17 +78,23 @@ bash
 /public
   index.html
   ...
+  
 Contributing
+
 Fork the Repository:
+
 Create a Feature Branch:
+
 bash
 
 git checkout -b feature/your-feature
 Commit Your Changes:
+
 bash
 
 git commit -am 'Add new feature'
 Push to the Branch:
+
 bash
 
 git push origin feature/your-feature
