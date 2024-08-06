@@ -35,7 +35,7 @@ body {
 
 /* Styles for the course content */
 .course-content {
-  background: rgba(31, 155, 244, 0.9); /* Semi-transparent white background */
+  /* Semi-transparent white background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,12 +62,12 @@ body {
 }
 
 h1 {
-  color: #007BFF;
+  color: #ffffff;
   animation: slideIn 1s ease-in-out;
 }
 
 p {
-  color: #333;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 
